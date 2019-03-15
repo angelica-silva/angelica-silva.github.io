@@ -28,6 +28,7 @@ export default class MyDocument extends Document {
                 <head>
                     <title>👸🏻</title>
                     <meta property='viewport' name='viewport' content='width=device-width,minimum-scale=1' />
+                    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet" />
                     {this.props.styles}
                 </head>
                 <body>
