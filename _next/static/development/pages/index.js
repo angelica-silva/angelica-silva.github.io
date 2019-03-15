@@ -6369,7 +6369,7 @@ function (_React$Component) {
         },
         __self: this
       }), "I\u2019d love to continue our conversation."), react__WEBPACK_IMPORTED_MODULE_7__["createElement"]("a", {
-        onClick: this.triggerCtaNotification,
+        href: "mailto:asilva@brightcove.com?subject=".concat(CTA_COPY.subject, "&body=").concat(CTA_COPY.body),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 122
