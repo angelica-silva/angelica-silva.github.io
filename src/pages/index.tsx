@@ -119,7 +119,7 @@ class Index extends React.Component {
                         I’d love to continue our conversation.
             </Blurb>
 
-                    <a onClick={this.triggerCtaNotification}><CTA><Fist /> Reach out!</CTA></a>
+                    <a href={`mailto:asilva@brightcove.com?subject=${CTA_COPY.subject}&body=${CTA_COPY.body}`}><CTA><Fist /> Reach out!</CTA></a>
 
                 </Flex>
 
